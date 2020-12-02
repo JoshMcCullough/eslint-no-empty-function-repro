@@ -4,51 +4,6 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking"
   ],
-  "rules": {
-    "no-template-curly-in-string": "error",
-    "curly": "error",
-    "dot-location": [
-      "error",
-      "property"
-    ],
-    "dot-notation": [
-      "error",
-      {
-        "allowPattern": "^__REDUX_DEVTOOLS_EXTENSION__$"
-      }
-    ],
-    "no-alert": "error",
-    "block-scoped-var": "error",
-    "prefer-const": "error",
-    "no-var": "error",
-    "vars-on-top": "error",
-    "newline-per-chained-call": "error",
-    "indent": [
-      "error",
-      2
-    ],
-    "default-case": "off",
-    "brace-style": [
-      "error",
-      "stroustrup"
-    ],
-    "@typescript-eslint/explicit-module-boundary-types": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unsafe-assignment": "off",
-    "@typescript-eslint/no-unsafe-member-access": "off",
-    "@typescript-eslint/no-unsafe-return": "off",
-    "@typescript-eslint/no-unsafe-call": "off",
-    "@typescript-eslint/no-floating-promises": "off",
-    "@typescript-eslint/unbound-method": "off",
-    "@typescript-eslint/restrict-template-expressions": "off",
-    "@typescript-eslint/restrict-plus-operands": "off",
-    "@typescript-eslint/no-misused-promises": [
-      "error",
-      {
-        "checksVoidReturn": false
-      }
-    ]
-  },
   "overrides": [
     {
       "parser": "@typescript-eslint/parser",
